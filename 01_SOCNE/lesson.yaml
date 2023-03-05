@@ -68,7 +68,7 @@
   Hint: Just type dim(my_vector) to make sure the `dim` attribute has been set.
   
 - Class: cmd_question
-  Output: View the contents of my_vector.
+  Output: View the contents of my_vector. To do that just type my_vector and hit Enter.
   CorrectAnswer: my_vector
   AnswerTests: omnitest(correctExpr='my_vector')
   Hint: Type my_vector to view its contents.
@@ -116,7 +116,7 @@
   Output: We may want to label the rows, so that we know which numbers belong to each user in our analysis. One way to do this is to add a column to the matrix, which contains the names of all four artist.
 
 - Class: cmd_question
-  Output: Let's start by creating a character vector containing the names of our artist -- "Drake", "Taylor Swift", "BTS", "Ed Sheeran". Use c() to combine them to a vector. Remember that double quotes tell R that something is a character string. Store the result in a variable called artist.
+  Output: Let's start by creating a character vector containing the names of our artist -- "Drake", "Taylor Swift", "BTS", "Ed Sheeran". Use c() to combine them to a vector. Remember that double quotes tell R that something is a character string. Store the result in a variable called artist. You can directly copy the names from here.
   CorrectAnswer: artist <- c("Drake", "Taylor Swift", "BTS", "Ed Sheeran")
   AnswerTests: omnitest(correctExpr='artist <- c("Drake", "Taylor Swift", "BTS", "Ed Sheeran")')
   Hint: Make sure to copy each name (with the right capitalization) and to store the result in a variable called artist. Also, don't get the order of the artist mixed up! 
