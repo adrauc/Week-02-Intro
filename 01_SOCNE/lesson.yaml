@@ -169,11 +169,11 @@
 - Class: cmd_question
   Output: Since we have six columns (including artist), we'll need to first create a vector containing one element for each column. Create a character vector called cnames that contains the following values (in order) -- "artist", "genre", "followers.total", "popularity", "type", "id".
   CorrectAnswer: cnames <- c("artist", "genre", "followers.total", "popularity", "type", "id")
-  AnswerTests: omnitest(correctExpr='cnames <- c("artist", "artist", "followers.total", "popularity", "type", "id")')
+  AnswerTests: omnitest(correctExpr='cnames <- c("artist", "genre", "followers.total", "popularity", "type", "id")')
   Hint: Make sure all of the names are lowercase, surrounded by double quotes, and separated with commas. Don't forget to use the c() function.
 
 - Class: cmd_question
-  Output: Now, use the colnames() function to set the `colnames` attribute for our data frame. This is similar to the way we used the dim() function earlier in this lesson. Use colnames() with my_data as argument and after the function add <- cnames
+  Output: Now, use the colnames() function to set the `colnames` attribute for our data frame. This is similar to the way we used the dim() function earlier in this lesson. Use colnames() with my_data as argument and after the function add <- cnames. Type colnames(my_data) <- cnames
   CorrectAnswer: colnames(my_data) <- cnames
   AnswerTests: omnitest(correctExpr='colnames(my_data) <- cnames')
   Hint: Try colnames(my_data) <- cnames.
