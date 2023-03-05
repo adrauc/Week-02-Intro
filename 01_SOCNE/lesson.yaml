@@ -249,10 +249,10 @@
   Hint: Type str(us_2022$explicit).
 
 - Class: cmd_question
-  Output: We have the data class logical. TRUE means obviously "is explicit". Try to directly subset all songs with this column. Use us_2022$explicit inside of the [] to select the songs with explicit content in the dataset.
-  CorrectAnswer: us_2022$explicit[us_2022$explicit, ]
-  AnswerTests: omnitest(correctExpr='us_2022$explicit[us_2022$explicit, ]')
-  Hint: Type us_2022$explicit[us_2022$explicit, ]
+  Output: We have the data class logical. TRUE means obviously "is explicit". Try to directly subset all songs with this column. Use us_2022$explicit inside of the [] to select the songs with explicit content in the dataset. Hint -> Use it for the rows [rows,columns]
+  CorrectAnswer: us_2022[us_2022$explicit, ]
+  AnswerTests: omnitest(correctExpr='us_2022[us_2022$explicit, ]')
+  Hint: Type us_2022[us_2022$explicit, ]
 
 - Class: text
   Output: You can always save your subsets in a new object with name_new_object <- ...
