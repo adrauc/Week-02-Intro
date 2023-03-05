@@ -9,7 +9,7 @@
   )
 }
 
-load(file.path(.get_course_path(), "week_02", "01_SOCNE", "data.rdata"))
+load(file.path(.get_course_path(), "Week-02-Intro", "01_SOCNE", "data.rdata"))
 
 if(!require(tibble)){
   install.packages("tibble")
