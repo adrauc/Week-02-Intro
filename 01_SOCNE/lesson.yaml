@@ -349,7 +349,7 @@
   Hint: Just type max(yt_taiwan_stats$created_at) - min(yt_taiwan_stats$created_at). 
 
 - Class: text
-  Output: As you can see, we cover ... with the videos I was searching for the keyword Taiwan on Youtube
+  Output: As you can see, we cover almost 6000 days with the videos I was searching with the keyword Taiwan on Youtube
 
 - Class: text
   Output: Important points this week - difference between data frames and matrices, use the $ when subsetting tibbles if you want a vector, how to use is.na(), what kind of data we get back from the different APIs.
